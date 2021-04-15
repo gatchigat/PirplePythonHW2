@@ -1,4 +1,4 @@
-
+#Functions
 def title():
     title = 'Hello'
     return title
@@ -22,12 +22,13 @@ def genre():
     else:
         return genre
 
-
+# Call Functions
 title = title()
 artist = artist()
 year = year()
 genre = genre()
 
+#Print Values
 print(title)
 print(artist)
 print(year)
